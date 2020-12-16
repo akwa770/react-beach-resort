@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 import defaultImage from '../../images/room-1.jpeg'
 
 const Room = ({ room }) => {
-    console.log(room);
     const { name, slug, images, price } = room;
     return (
         <article className="room">
